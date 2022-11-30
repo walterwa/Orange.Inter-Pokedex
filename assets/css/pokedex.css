@@ -9,7 +9,7 @@
 .pokemon {
     display: flex;
     flex-direction: column;
-    /* margin: .5rem; */
+    margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
     background-color: #49D0B0;
