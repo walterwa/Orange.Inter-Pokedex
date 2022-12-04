@@ -7,11 +7,27 @@ body {
     background-color: #F6F8FC;
 }
 
+.pokeball {
+    max-width: 100%;
+    position: relative;
+}
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
     background-color: #FFF;
+}
+
+@media (prefers-color-scheme: dark) {
+    .title {
+        color: #FFF;
+    }
+    body {
+        background-color: #000;
+    }
+    .content{
+        background-color:   #1a1919  ;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -22,3 +38,4 @@ body {
         border-radius: 1rem;
     }
 }
+
